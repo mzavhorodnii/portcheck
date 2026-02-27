@@ -45,3 +45,10 @@ UDP     5353    500     mDNSResponder                    *.5353
 ## Requirements
 
 Go 1.21+
+
+Make sure your Go bin directory is in PATH:
+```bash
+export PATH=$PATH:$(go env GOPATH)/bin
+```
+
+Add this to your `~/.zshrc` or `~/.bashrc` to make it permanent.
